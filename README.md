@@ -15,6 +15,15 @@
 
 **Links de research:**
 
+USUARIOS:
+https://es.surveymonkey.com/r/2J9TMPS
+
+BANDAS:
+https://es.surveymonkey.com/r/2NC59JY
+
+FUNDACIONES:
+https://es.surveymonkey.com/r/25PPXP3
+
 
 2.- A partir de que el proyecto fue del gusto de éstos tres perfiles, hemos desarrollado la arquitectura de la información.
 
