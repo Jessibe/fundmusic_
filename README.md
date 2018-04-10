@@ -67,7 +67,7 @@ Y por último la fundación podrá encontrar una sección de contacto y redes so
 
 ![Primer vista](assets/img/vista5.png)
 
-<<<<<<< HEAD
+
 4.- Por último, realizamos un testing en el cúal se han definido la siguiente paleta de colores para plasmarlo en su primer diseño de interfaz.
 
 
