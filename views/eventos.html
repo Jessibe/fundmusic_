@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FUNDMUSIC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="icon" href="../assets/img/logo-naranja.png">
+  <link href='../css/fullcalendar.min.css' rel='stylesheet' />
+  <link href='../css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+  <style>
+    body {
+      margin: 40px 10px;
+      padding: 0;
+      font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+      font-size: 14px;
+    }
+    #loading {
+      display: none;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    #calendar {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+        border-color: #F4D35E;
+    }
+  </style>
+
+
+</head>
+<body>
+<!-- MENÚ -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+      </button>
+      <img id="img-nav" src="../assets/img/logo.png">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="nosotros.html">NOSOTROS </a></li>
+        <li><a href="eventos.html">EVENTOS</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">SÚMATE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="artistas.html">ARTISTAS</a></li>
+            <li><a href="fundaciones.html">FUNDACIONES</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container text-center center-align cont-views">
+
+	<h3>PRÓXIMOS EVENTOS</h3>
+    <div class="col-md-12">
+        <div id='loading'>loading...</div>
+        <div id='calendar'></div>
+    </div>
+	<div class="col-sm-8 col-sm-offset-2">
+		<hr class="hr-1">
+		<div class="col-sm-2">
+			<img class="img-event" src="../assets/img/smiths.jpg">
+		</div>
+		<div class="col-sm-2">
+			<h1>24</h1>
+			<p>FEB</p>
+		</div>
+
+		<div class="col-sm-3">
+       <p>THE SMITHS</p>
+		</div>
+    <div class="col-sm-3">
+       <p id="place">SALA CORONA</p>
+    </div>
+    <div class="col-sm-2">
+      <button class="btn-up" type="button" name="button">BOLETOS</button>
+    </div>
+	</div>
+
+	<div class="col-sm-8 col-sm-offset-2">
+		<hr class="hr-1">
+		<div class="col-sm-2">
+			<img class="img-event" src="../assets/img/guns.jpg">
+		</div>
+		<div class="col-sm-2">
+			<h1>28</h1>
+			<p>FEB</p>
+		</div>
+		<div class="col-sm-3">
+      <p>GUNS N' ROSES</p>
+		</div>
+    <div class="col-sm-3">
+       <p id="place">PALACIO DE LOS DEPORTES</p>
+    </div>
+    <div class="col-sm-2">
+      <button class="btn-up" type="button" name="button">BOLETOS</button>
+    </div>
+	</div>
+
+	<div class="col-sm-8 col-sm-offset-2">
+		<hr class="hr-1">
+		<div class="col-sm-2">
+			<img class="img-event" src="../assets/img/acdc.jpg">
+		</div>
+		<div class="col-sm-2">
+			<h1>03</h1>
+			<p>MAR</p>
+		</div>
+		<div class="col-sm-3">
+      <p>AC/DC</p>
+		</div>
+    <div class="col-sm-3">
+         <p id="place">FORO SOL</p>
+    </div>
+    <div class="col-sm-2">
+        <button class="btn-up" type="button" name="button">BOLETOS</button>
+    </div>
+ </div>
+	<div class="col-sm-8 col-sm-offset-2">
+		<hr class="hr-1">
+	</div>
+
+	</div><br>
+
+
+<footer class="container-fluid foot">
+	 <div class="col-sm-6 col-sm-offset-1">
+	 	<p>CONÓCENOS</p>
+	 	<p>CONTACTO</p>
+	 	<p>DONATIVOS</p>
+
+	 	<p>AYUDA</p>
+	 	<p>CHAT</p>
+
+    </div>
+
+    <div class="col-sm-5">
+    	<img class="icon-footer" src="../assets/img/icon-fb.png">
+    	<img class="icon-footer" src="../assets/img/icon-insta.png">
+    	<img class="icon-footer" src="../assets/img/icon-tw.png">
+    </div>
+
+
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='../js/lib/moment.min.js'></script>
+  <script src='../js/fullcalendar.min.js'></script>
+  <script src='../js/gcal.min.js'></script>
+  <script>
+    $(document).ready(function() {
+          $('#calendar').fullCalendar({
+                header: {
+                  left: 'prev,next hoy',
+                  center: 'title',
+                  right: 'month,listYear'
+                },
+                displayEventTime: false,
+                googleCalendarApiKey: 'AIzaSyAjgRLkKL9yjwSsHWMsE8yKhELssnV5ZSo',
+                events: 'ef591alaskctsnsl2hlhetdo9k@group.calendar.google.com',
+                eventClick: function(event) {
+                      // opens events in a popup window
+                      window.open(event.url, 'gcalevent', 'width=700,height=600');
+                      return false;
+                },
+                loading: function(bool) {
+                    $('#loading').toggle(bool);
+                }
+          });
+    });
+  </script>
+  <script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>

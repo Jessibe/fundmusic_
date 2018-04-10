@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FUNDMUSIC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="icon" href="../assets/img/logo-naranja.png">
+
+</head>
+<body>
+<!-- MENÚ -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+      </button>
+      <img id="img-nav" src="../assets/img/logo.png">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="nosotros.html">NOSOTROS </a></li>
+        <li><a href="eventos.html">EVENTOS</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">SÚMATE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="artistas.html">ARTISTAS</a></li>
+            <li><a href="fundaciones.html">FUNDACIONES</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- FIN -->
+
+<div class="container text-center center-align cont-views">
+
+	<div class="col-sm-12">
+		<div class="registro-f p-t">
+		 <button class="btn-up" type="button" name="button" data-toggle="modal" data-target="#myModal">REGISTRA TU FUNDACIÓN</button>
+
+<!-- Modal -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+
+                <button type="button" class="close"
+
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    REGISTRA TU FUNDACIÓN
+                </h4>
+            </div>
+
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+
+                <form role="form">
+                  <div class="form-group">
+                      <input  class="form-control"
+                      id="band" placeholder="Nombre de tu banda"/>
+                  </div>
+                  <div class="form-group">
+                      <input  class="form-control"
+                      id="email" placeholder="Email"/>
+                  </div>
+                  <div class="form-group">
+                      <input  class="form-control"
+                      id="telefono" placeholder="Teléfono"/>
+                  </div>
+                  <div class="form-group">
+					  <select class="form-control" id="sel1">
+					    <option value="" hidden>Fundación a la que deseas apoyar</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+                      </select>
+                  </div>
+	            	<div class="form-group">
+                   <div class="inner-addon right-addon">
+
+                     <i class="glyphicon glyphicon-calendar"></i>
+                    <input id="datepicker" type="text" class="form-control" readonly="true" placeholder="Elige la fecha">
+
+
+                    </div>
+               </div>
+
+
+				  <div class="form-group">
+					  <select class="form-control" id="sel1">
+					    <option value="" hidden>¿Cómo te enteraste de nosotros?</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+                      </select>
+                  </div>
+              </form>
+            </div>
+
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn-up-disabled"
+                        data-dismiss="modal">
+                            Cerrar
+                </button>
+                <button type="button" class="btn-up">
+                    REGISTRAR
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+		</div>
+
+	</div>
+</div><br>
+<!-- SECCIÓN ARTISTAS -->
+<div class="container">
+	<div class="row">
+  		<div class="col-md-4">
+		    <div class="thumbnail ">
+		      <img src="../assets/img/fund1.jpg" alt="Banda">
+		      <div class="caption">
+		        <h3>FUNDACIÓN MICHOU Y MAU</h3>
+		        <p class="registro-text">es una organización no lucrativa destinada a la
+              asistencia y prevención de niños mexicanos con quemaduras severas cuya
+              misión es que ningún niño mexicano con quemaduras severas, muera por falta
+               de una oportuna atención médica especializada. </p>
+		        <p><a href="#" class="btn-up" role="button">VER MÁS</a> </p>
+		      </div>
+    		</div>
+ 		 </div>
+  		<div class="col-md-4">
+		    <div class="thumbnail ">
+		      <img src="../assets/img/fund2.jpg" alt="Banda">
+		      <div class="caption">
+		        <h3>FUNDACIÓN RIE</h3>
+		        <p class="registro-text">(Rehabilitación Infantil con Equinoterapia): Es una fundación
+              que brinda una rehabilitación a los niños con discapacidad, en su mayoría
+              de escasos recursos desde Noviembre del 2006, mediante la equinoterapia,
+              hidroterapia, atención psicológica, terapia ocupacional y atención médica.</p>
+		        <p><a href="#" class="btn-up" role="button">VER MÁS</a> </p>
+		      </div>
+    		</div>
+ 		 </div>
+  		 <div class="col-md-4">
+		    <div class="thumbnail ">
+		      <img src="../assets/img/fund3.jpg" alt="Banda">
+		      <div class="caption">
+		        <h3>JHON LANGDON DOWN A.C.</h3>
+		        <p class="registro-text"> Promueve el potencial de las
+              personas con síndrome de Down mejorando su calidad de viday ofrece a las personas con síndrome de Down y sus familias
+               programas educativos y de salud especializados para promover
+               desarrollo de sus capacidades físicas, intelectuales y sociales.</p>
+		        <p><a href="#" class="btn-up" role="button">VER MÁS</a> </p>
+		      </div>
+    		</div>
+    	</div>
+      <div class="col-md-4">
+       <div class="thumbnail ">
+         <img src="../assets/img/fund4.jpg" alt="Banda">
+         <div class="caption">
+           <h3>WORLD VISION MEXICO</h3>
+           <p class="registro-text">Esta organización internacional, se ha
+             comprometido a erradicar la pobreza infantil y sus causas. World Vision
+              está comprometida con los más vulnerables actuando a través de programas
+              que incluyen campañas de derechos humanos, desarrollo comunitario y apoyo
+              a emergencias humanitarias.</p>
+           <p><a href="#" class="btn-up" role="button">VER MÁS</a> </p>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4">
+      <div class="thumbnail ">
+        <img src="../assets/img/fund5.jpg" alt="Banda">
+        <div class="caption">
+          <h3>AMANC</h3>
+          <p class="registro-text">sta asociación
+            tiene como misión ayudar a niños y adolescentes con cáncer mediante el modelo
+            de acompañamiento integral (educación, alimentación tratamiento médico y de
+            rehabilitación, y apoyo en transporte, terapia familiar y fomento al empleo
+            de los tutores y otros elementos de la comunidad).</p>
+          <p><a href="#" class="btn-up" role="button">VER MÁS</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+     <div class="thumbnail ">
+       <img src="../assets/img/fund6.jpg" alt="Banda">
+       <div class="caption">
+         <h3>TODOS EN CREE-CIMIENTO</h3>
+         <p class="registro-text">Es una institución que brinda apoyo integral a las familias
+           de niños y jóvenes con discapacidad múltiple severa para que logren
+           un mayor crecimiento personal, familiar y social. Proporcionan a las
+            familias de niños y jóvenes de de escasos recursos con discapacidades
+            múltiples</p>
+         <p><a href="#" class="btn-up" role="button">VER MÁS</a> </p>
+       </div>
+     </div>
+   </div>
+</div>
+
+
+ <!-- FOOTER -->
+<footer class="container-fluid foot">
+	 <div class="col-sm-6 col-sm-offset-1">
+     <br>
+	 	<p>CONÓCENOS</p>
+	 	<p>CONTACTO</p>
+	 	<p>DONATIVOS</p>
+	 	<p>AYUDA</p>
+	 	<p>CHAT</p>
+
+    </div>
+
+    <div class="col-sm-5">
+    	<img class="icon-footer" src="../assets/img/icon-fb.png">
+    	<img class="icon-footer" src="../assets/img/icon-insta.png">
+    	<img class="icon-footer" src="../assets/img/icon-tw.png">
+    </div>
+
+
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker3.min.css">
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
+
+  <script type="text/javascript" src="../js/app.js"></script>
+
+</body>
+</html>

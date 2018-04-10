@@ -1,0 +1,273 @@
+body {
+  background-color: black;
+  color: #FFFFFF;
+}
+h3{
+  color: white;
+}
+
+.hr-1 {
+  border-top: 2px solid #F4D35E;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 15px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  padding: 10px 10px 0px 10px;
+}
+
+.navbar li a {
+  color: #FFFFFF !important;
+}
+
+#img-nav {
+  height: 7vh;
+}
+
+.navbar-nav li a:hover {
+  color: #F4D35E !important;
+}
+
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Dropdown */
+
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: black !important;
+}
+
+.dropdown-menu {
+  background-color: black !important;
+}
+
+.dropdown-menu li a {
+  background-color: transparent !important;
+  color: #FFFFFF !important;
+}
+
+.dropdown-menu li a:hover {
+  color: #F4D35E !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  /* Set width to 100% */
+  margin: auto;
+  min-height: 200px;
+  height: 100vh;
+}
+
+.cont-views {
+  margin-top: 7vh;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/*ESTILOS PUBLICACIÓN*/
+
+#update:placeholder {
+  color: white;
+}
+
+#update, #mensaje {
+  margin-top: 1em;
+  background-color: white;
+  opacity: 0.5;
+  height: 5em;
+  width: 100%;
+  border-radius: .3em;
+  overflow-y: scroll;
+}
+
+.textarea {
+  color: white !important
+}
+
+.upload1 {
+  text-align: right;
+  margin-bottom: .5em;
+}
+
+.btn-up {
+  background-color: #F4D35E;
+  color: #000000;
+  height: 2.5em;
+  font-weight: 500;
+  padding: .5em;
+}
+
+.btn-up:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*EVENTOS*/
+
+#place {
+  color: #F4D35E;
+}
+
+.img-event {
+  width: 100px;
+  height: 100px;
+}
+
+/*FOOTER*/
+
+.icon-footer {
+  margin: 5%;
+}
+
+.foot {
+  background: linear-gradient(black, #30343f);
+}
+
+/*Súmate*/
+
+.registro-b {
+  height: 50vh;
+  background-image: url(https://media.giphy.com/media/3og0IUTy80RuWleuRi/giphy.gif);
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+.registro-f{
+  height: 50vh;
+  background-image: url(http://fundacioncompartir.org/sites/default/files/styles/slick_600x320/public/las-fundaciones-trabajan-en-el-noveno-objetivo-de-desarrollo-sostenible.jpg?itok=s5UoTBie);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-t{
+  padding-top: 20vh;
+}
+.thumbnail>img{
+  padding-top: 30px;
+  width: :70vh;
+  height: 50vh;
+}
+.registro-text {
+  color: white;
+}
+
+.thumbnail {
+  background-color: transparent;
+  border: none;
+}
+
+/* Seccion de Post y subida de imagenes */
+
+.header, .mensaje {
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.nombre {
+  color: #F79256;
+}
+
+#mensaje {
+  width: 400px;
+}
+
+#btnEnviar {
+  width: 88px;
+  margin: 11px 221px;
+}
+
+body>div>div>div.col-sm-5>div>div.panel-body>ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.panel-primary {
+  border: none;
+}
+
+.panel-body, .panel-footer {
+  background: black;
+  border: none;
+}
+
+.panel-body {
+  overflow-y: scroll;
+  height: 100vh;
+  box-shadow: inset 0 0 20px 20px black;
+}
+
+.cont-img {
+  overflow-y: scroll;
+  height: 100vh;
+  box-shadow: inset 0 0 20px 20px black;
+}
+
+#form-imagenes {
+  margin-top: 20px;
+}
+
+#form-imagenes>label>img {
+  margin-top: 15px;
+}
+
+::-webkit-scrollbar {
+  background: black;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F4D35E;
+  border-radius: 10px;
+}
+
+/*MODAL*/
+.modal-body,.modal-header, .modal-footer{
+    background-color: black;
+    color: #F4D35E;
+}
+
+.inner-addon{
+    position: relative;
+}
+.right-addon .glyphicon{
+    right: 0px;
+}
+.right-addon input{
+    padding-right: 30px;
+}
+
+/*NOSOTROS*/
+#nosotros{
+  text-align: center;
+  font-size: 25px;
+  margin:
+
+}
+#nosotros.div{
+  margin: auto;
+}
+#nosotros> h1{
+  color: #F4D35E;
+}
+.seccion{
+    height: 80vh;
+}
+.nosotros-bg{
+   height: 50vh;
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://media.giphy.com/media/3oEduXeT0j1Bl5uWHK/giphy.gif);
+}
